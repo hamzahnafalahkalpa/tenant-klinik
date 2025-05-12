@@ -1,0 +1,24 @@
+{
+    "name": "hanafalah/module-card-identity",
+    "autoload": {
+        "psr-4": {
+            "Hanafalah\\ModuleCardIdentity\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hamzah",
+            "email": "hamzahnafalah@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hanafalah\\ModuleCardIdentity\\ModuleCardIdentityServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "hanafalah/laravel-support": "1.x-dev as 1.0"
+    }
+}
