@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'cf1f83bd2175919a1c07fd1ed9af001e6a6434c1',
+        'reference' => '82c5ae56c9d2256ff7f0f4cc0ba12a93dafc415c',
         'name' => 'group-initial-klinik/tenant-klinik',
         'dev' => true,
     ),
@@ -178,7 +178,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'cf1f83bd2175919a1c07fd1ed9af001e6a6434c1',
+            'reference' => '82c5ae56c9d2256ff7f0f4cc0ba12a93dafc415c',
             'dev_requirement' => false,
         ),
         'guzzlehttp/guzzle' => array(
@@ -309,6 +309,15 @@
             'reference' => '7056def4067641b3f97d7ef967bf4e5bbde527eb',
             'dev_requirement' => false,
         ),
+        'hanafalah/module-cms' => array(
+            'pretty_version' => '1.x-dev',
+            'version' => '1.9999999.9999999.9999999-dev',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../hanafalah/module-cms',
+            'aliases' => array(),
+            'reference' => 'af5b44cbc54b113f7c9d432510d17e3b6a3781ae',
+            'dev_requirement' => false,
+        ),
         'hanafalah/module-disease' => array(
             'pretty_version' => '1.x-dev',
             'version' => '1.9999999.9999999.9999999-dev',
@@ -345,6 +354,15 @@
             'reference' => 'a9174b698db94643e501b8db5cbcc0b5ad8841b0',
             'dev_requirement' => false,
         ),
+        'hanafalah/module-event' => array(
+            'pretty_version' => '1.x-dev',
+            'version' => '1.9999999.9999999.9999999-dev',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../hanafalah/module-event',
+            'aliases' => array(),
+            'reference' => '99e27ddbc1ad63ea8a61284a5563c448c6c1fb7f',
+            'dev_requirement' => false,
+        ),
         'hanafalah/module-examination' => array(
             'pretty_version' => '1.x-dev',
             'version' => '1.9999999.9999999.9999999-dev',
@@ -361,6 +379,15 @@
             'install_path' => __DIR__ . '/../hanafalah/module-funding',
             'aliases' => array(),
             'reference' => '910cd762f9a4db7120eab633a8a936c4ec6e011f',
+            'dev_requirement' => false,
+        ),
+        'hanafalah/module-handwriting' => array(
+            'pretty_version' => '1.x-dev',
+            'version' => '1.9999999.9999999.9999999-dev',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../hanafalah/module-handwriting',
+            'aliases' => array(),
+            'reference' => 'b0ff8080baef0cae57612c289564fc7051c93359',
             'dev_requirement' => false,
         ),
         'hanafalah/module-icd' => array(
@@ -397,6 +424,15 @@
             'install_path' => __DIR__ . '/../hanafalah/module-lab-radiology',
             'aliases' => array(),
             'reference' => 'f73a9e2f84fc0b8cfe37a51124a7eb774f2deae0',
+            'dev_requirement' => false,
+        ),
+        'hanafalah/module-manufacture' => array(
+            'pretty_version' => '1.x-dev',
+            'version' => '1.9999999.9999999.9999999-dev',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../hanafalah/module-manufacture',
+            'aliases' => array(),
+            'reference' => '12767652398a37c4bb710b48f4b0040bba7386a8',
             'dev_requirement' => false,
         ),
         'hanafalah/module-mcu' => array(
@@ -532,6 +568,15 @@
             'install_path' => __DIR__ . '/../hanafalah/module-regional',
             'aliases' => array(),
             'reference' => 'acf69af17a669a76440ab84a91ca6458694834a1',
+            'dev_requirement' => false,
+        ),
+        'hanafalah/module-rencana-anggaran' => array(
+            'pretty_version' => '1.x-dev',
+            'version' => '1.9999999.9999999.9999999-dev',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../hanafalah/module-rencana-anggaran',
+            'aliases' => array(),
+            'reference' => 'ce4943933997ca86bab758633915c2e594347eab',
             'dev_requirement' => false,
         ),
         'hanafalah/module-service' => array(
@@ -740,7 +785,7 @@
             'aliases' => array(
                 0 => '1.0',
             ),
-            'reference' => '857b34cd5b2b85c9cb49d91e16f2872faa6a0f28',
+            'reference' => 'e4b1e20f0c04fcce8544f093f9bd7be3c0f9f43e',
             'dev_requirement' => false,
         ),
         'laravel/prompts' => array(
@@ -911,7 +956,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../projects/klinik',
             'aliases' => array(),
-            'reference' => '4347c282719dd92cc37c453117b2c35656817b50',
+            'reference' => '711eae896e7fbded020bcb091278f0a6a3a140fc',
             'dev_requirement' => false,
         ),
         'psr/clock' => array(

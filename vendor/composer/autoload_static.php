@@ -49,9 +49,9 @@ class ComposerStaticInit00e0405f1d7076aa9881fbb9d17d90a3
         '7c68e43b5668812b403505729ea91e93' => __DIR__ . '/..' . '/hanafalah/laravel-package-generator/src/helpers.php',
         '3109cb1a231dcd04bee1f9f620d46975' => __DIR__ . '/..' . '/paragonie/sodium_compat/autoload.php',
         'decc78cc4436b1292c6c0d151b19445c' => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib/bootstrap.php',
+        '2a9e07cec42974089cfd92c152ee3073' => __DIR__ . '/..' . '/hanafalah/module-tax/src/helpers.php',
         '36c375dc52cef535fa444bc647ee4926' => __DIR__ . '/..' . '/hanafalah/module-workspace/src/helpers.php',
         '7dd449b3793e07d67837ff1ed85667a9' => __DIR__ . '/..' . '/projects/klinik/src/helpers.php',
-        '2a9e07cec42974089cfd92c152ee3073' => __DIR__ . '/..' . '/hanafalah/module-tax/src/helpers.php',
         '8b4fe92dc5dae4f20f7bd2fbd64259bd' => __DIR__ . '/..' . '/klinik/group-initial-klinik/src/helpers.php',
         '39db279a15aa8089c920e663d1d2f123' => __DIR__ . '/../..' . '/src/helpers.php',
     );
@@ -160,6 +160,7 @@ class ComposerStaticInit00e0405f1d7076aa9881fbb9d17d90a3
             'Hanafalah\\ModuleTax\\' => 20,
             'Hanafalah\\ModuleSummary\\' => 24,
             'Hanafalah\\ModuleService\\' => 24,
+            'Hanafalah\\ModuleRencanaAnggaran\\' => 32,
             'Hanafalah\\ModuleRegional\\' => 25,
             'Hanafalah\\ModuleProfession\\' => 27,
             'Hanafalah\\ModuleProcurement\\' => 28,
@@ -175,16 +176,20 @@ class ComposerStaticInit00e0405f1d7076aa9881fbb9d17d90a3
             'Hanafalah\\ModuleMedicalItem\\' => 28,
             'Hanafalah\\ModuleMedicService\\' => 29,
             'Hanafalah\\ModuleMcu\\' => 20,
+            'Hanafalah\\ModuleManufacture\\' => 28,
             'Hanafalah\\ModuleLabRadiology\\' => 29,
             'Hanafalah\\ModuleItem\\' => 21,
             'Hanafalah\\ModuleInformedConsent\\' => 32,
             'Hanafalah\\ModuleIcd\\' => 20,
+            'Hanafalah\\ModuleHandwriting\\' => 28,
             'Hanafalah\\ModuleFunding\\' => 24,
             'Hanafalah\\ModuleExamination\\' => 28,
+            'Hanafalah\\ModuleEvent\\' => 22,
             'Hanafalah\\ModuleEncoding\\' => 25,
             'Hanafalah\\ModuleEmployee\\' => 25,
             'Hanafalah\\ModuleDistribution\\' => 29,
             'Hanafalah\\ModuleDisease\\' => 24,
+            'Hanafalah\\ModuleCms\\' => 20,
             'Hanafalah\\ModuleClassRoom\\' => 26,
             'Hanafalah\\ModuleCardIdentity\\' => 29,
             'Hanafalah\\ModuleAnatomy\\' => 24,
@@ -519,6 +524,10 @@ class ComposerStaticInit00e0405f1d7076aa9881fbb9d17d90a3
         array (
             0 => __DIR__ . '/..' . '/hanafalah/module-service/src',
         ),
+        'Hanafalah\\ModuleRencanaAnggaran\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hanafalah/module-rencana-anggaran/src',
+        ),
         'Hanafalah\\ModuleRegional\\' => 
         array (
             0 => __DIR__ . '/..' . '/hanafalah/module-regional/src',
@@ -579,6 +588,10 @@ class ComposerStaticInit00e0405f1d7076aa9881fbb9d17d90a3
         array (
             0 => __DIR__ . '/..' . '/hanafalah/module-mcu/src',
         ),
+        'Hanafalah\\ModuleManufacture\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hanafalah/module-manufacture/src',
+        ),
         'Hanafalah\\ModuleLabRadiology\\' => 
         array (
             0 => __DIR__ . '/..' . '/hanafalah/module-lab-radiology/src',
@@ -595,6 +608,10 @@ class ComposerStaticInit00e0405f1d7076aa9881fbb9d17d90a3
         array (
             0 => __DIR__ . '/..' . '/hanafalah/module-icd/src',
         ),
+        'Hanafalah\\ModuleHandwriting\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hanafalah/module-handwriting/src',
+        ),
         'Hanafalah\\ModuleFunding\\' => 
         array (
             0 => __DIR__ . '/..' . '/hanafalah/module-funding/src',
@@ -602,6 +619,10 @@ class ComposerStaticInit00e0405f1d7076aa9881fbb9d17d90a3
         'Hanafalah\\ModuleExamination\\' => 
         array (
             0 => __DIR__ . '/..' . '/hanafalah/module-examination/src',
+        ),
+        'Hanafalah\\ModuleEvent\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hanafalah/module-event/src',
         ),
         'Hanafalah\\ModuleEncoding\\' => 
         array (
@@ -618,6 +639,10 @@ class ComposerStaticInit00e0405f1d7076aa9881fbb9d17d90a3
         'Hanafalah\\ModuleDisease\\' => 
         array (
             0 => __DIR__ . '/..' . '/hanafalah/module-disease/src',
+        ),
+        'Hanafalah\\ModuleCms\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hanafalah/module-cms/src',
         ),
         'Hanafalah\\ModuleClassRoom\\' => 
         array (

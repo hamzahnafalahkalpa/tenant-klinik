@@ -48,9 +48,9 @@ return array(
     '7c68e43b5668812b403505729ea91e93' => $vendorDir . '/hanafalah/laravel-package-generator/src/helpers.php',
     '3109cb1a231dcd04bee1f9f620d46975' => $vendorDir . '/paragonie/sodium_compat/autoload.php',
     'decc78cc4436b1292c6c0d151b19445c' => $vendorDir . '/phpseclib/phpseclib/phpseclib/bootstrap.php',
+    '2a9e07cec42974089cfd92c152ee3073' => $vendorDir . '/hanafalah/module-tax/src/helpers.php',
     '36c375dc52cef535fa444bc647ee4926' => $vendorDir . '/hanafalah/module-workspace/src/helpers.php',
     '7dd449b3793e07d67837ff1ed85667a9' => $vendorDir . '/projects/klinik/src/helpers.php',
-    '2a9e07cec42974089cfd92c152ee3073' => $vendorDir . '/hanafalah/module-tax/src/helpers.php',
     '8b4fe92dc5dae4f20f7bd2fbd64259bd' => $vendorDir . '/klinik/group-initial-klinik/src/helpers.php',
     '39db279a15aa8089c920e663d1d2f123' => $baseDir . '/src/helpers.php',
 );

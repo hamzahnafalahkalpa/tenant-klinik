@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4e3823ba41df2f7551110ddc6ee3534c",
+    "content-hash": "37b49509b6aa2b3a562a58796ceb8b1a",
     "packages": [
         {
             "name": "amphp/amp",
@@ -2020,6 +2020,49 @@
             }
         },
         {
+            "name": "hanafalah/module-cms",
+            "version": "1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/micro-tenant/module-cms.git",
+                "reference": "af5b44cbc54b113f7c9d432510d17e3b6a3781ae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/micro-tenant%2Fmodule-cms/repository/archive.zip?sha=af5b44cbc54b113f7c9d432510d17e3b6a3781ae",
+                "reference": "af5b44cbc54b113f7c9d432510d17e3b6a3781ae",
+                "shasum": ""
+            },
+            "require": {
+                "hanafalah/laravel-support": "1.x-dev as 1.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Hanafalah\\ModuleCms\\ModuleCmsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Hanafalah\\ModuleCms\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "hamzah",
+                    "email": "hamzahnafalah@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://gitlab.com/micro-tenant/module-cms/-/issues",
+                "source": "https://gitlab.com/micro-tenant/module-cms/-/tree/1.x"
+            },
+            "time": "2025-04-29T04:55:16+00:00"
+        },
+        {
             "name": "hanafalah/module-disease",
             "version": "1.x-dev",
             "dist": {
@@ -2172,6 +2215,43 @@
             }
         },
         {
+            "name": "hanafalah/module-event",
+            "version": "1.x-dev",
+            "dist": {
+                "type": "path",
+                "url": "../../../repositories/module-event",
+                "reference": "99e27ddbc1ad63ea8a61284a5563c448c6c1fb7f"
+            },
+            "require": {
+                "hanafalah/laravel-support": "1.x-dev as 1.0",
+                "hanafalah/module-profession": "1.x-dev as 1.0",
+                "hanafalah/module-transaction": "1.x-dev as 1.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Hanafalah\\ModuleEvent\\ModuleEventServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Hanafalah\\ModuleEvent\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "hamzah",
+                    "email": "hamzahnafalah@gmail.com"
+                }
+            ],
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
+        },
+        {
             "name": "hanafalah/module-examination",
             "version": "1.x-dev",
             "dist": {
@@ -2237,6 +2317,41 @@
             "autoload": {
                 "psr-4": {
                     "Hanafalah\\ModuleFunding\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "hamzah",
+                    "email": "hamzahnafalah@gmail.com"
+                }
+            ],
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
+        },
+        {
+            "name": "hanafalah/module-handwriting",
+            "version": "1.x-dev",
+            "dist": {
+                "type": "path",
+                "url": "../../../repositories/module-handwriting",
+                "reference": "b0ff8080baef0cae57612c289564fc7051c93359"
+            },
+            "require": {
+                "hanafalah/laravel-support": "1.x-dev as 1.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Hanafalah\\ModuleHandwriting\\ModuleHandwritingServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Hanafalah\\ModuleHandwriting\\": "src/"
                 }
             },
             "authors": [
@@ -2411,6 +2526,43 @@
                 }
             ],
             "description": "Module Master Lab dan Radiology",
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
+        },
+        {
+            "name": "hanafalah/module-manufacture",
+            "version": "1.x-dev",
+            "dist": {
+                "type": "path",
+                "url": "../../../repositories/module-manufacture",
+                "reference": "12767652398a37c4bb710b48f4b0040bba7386a8"
+            },
+            "require": {
+                "hanafalah/laravel-support": "1.x-dev as 1.0",
+                "hanafalah/module-item": "1.x-dev as 1.0",
+                "hanafalah/module-service": "1.x-dev as 1.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Hanafalah\\ModuleManufacture\\ModuleManufactureServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Hanafalah\\ModuleManufacture\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "hamzah",
+                    "email": "hamzahnafalah@gmail.com"
+                }
+            ],
             "transport-options": {
                 "symlink": true,
                 "relative": true
@@ -2970,6 +3122,43 @@
             "autoload": {
                 "psr-4": {
                     "Hanafalah\\ModuleRegional\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "hamzah",
+                    "email": "hamzahnafalah@gmail.com"
+                }
+            ],
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
+        },
+        {
+            "name": "hanafalah/module-rencana-anggaran",
+            "version": "1.x-dev",
+            "dist": {
+                "type": "path",
+                "url": "../../../repositories/module-rencana-anggaran",
+                "reference": "ce4943933997ca86bab758633915c2e594347eab"
+            },
+            "require": {
+                "hanafalah/laravel-support": "1.x-dev as 1.0",
+                "hanafalah/module-cms": "1.x-dev as 1.0",
+                "hanafalah/module-manufacture": "1.x-dev as 1.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Hanafalah\\ModuleRencanaAnggaran\\ModuleRencanaAnggaranServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Hanafalah\\ModuleRencanaAnggaran\\": "src/"
                 }
             },
             "authors": [
@@ -4084,7 +4273,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../Groups/group-initial-klinik",
-                "reference": "857b34cd5b2b85c9cb49d91e16f2872faa6a0f28"
+                "reference": "e4b1e20f0c04fcce8544f093f9bd7be3c0f9f43e"
             },
             "require": {
                 "hanafalah/laravel-support": "1.x-dev as 1.0",
@@ -5417,7 +5606,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../Projects/klinik",
-                "reference": "4347c282719dd92cc37c453117b2c35656817b50"
+                "reference": "711eae896e7fbded020bcb091278f0a6a3a140fc"
             },
             "require": {
                 "hanafalah/api-helper": "1.x-dev as 1.0",
@@ -5434,12 +5623,15 @@
                 "hanafalah/module-distribution": "1.x-dev as 1.0",
                 "hanafalah/module-employee": "1.x-dev as 1.0",
                 "hanafalah/module-encoding": "1.x-dev as 1.0",
+                "hanafalah/module-event": "1.x-dev as 1.0",
                 "hanafalah/module-examination": "1.x-dev as 1.0",
                 "hanafalah/module-funding": "1.x-dev as 1.0",
+                "hanafalah/module-handwriting": "1.x-dev as 1.0",
                 "hanafalah/module-icd": "1.x-dev as 1.0",
                 "hanafalah/module-informed-consent": "1.x-dev as 1.0",
                 "hanafalah/module-item": "1.x-dev as 1.0",
                 "hanafalah/module-lab-radiology": "1.x-dev as 1.0",
+                "hanafalah/module-manufacture": "1.x-dev as 1.0",
                 "hanafalah/module-mcu": "1.x-dev as 1.0",
                 "hanafalah/module-medic-service": "1.x-dev as 1.0",
                 "hanafalah/module-medical-item": "1.x-dev as 1.0",
@@ -5455,6 +5647,7 @@
                 "hanafalah/module-procurement": "1.x-dev as 1.0",
                 "hanafalah/module-profession": "1.x-dev as 1.0",
                 "hanafalah/module-regional": "1.x-dev as 1.0",
+                "hanafalah/module-rencana-anggaran": "1.x-dev as 1.0",
                 "hanafalah/module-service": "1.x-dev as 1.0",
                 "hanafalah/module-summary": "1.x-dev as 1.0",
                 "hanafalah/module-tax": "1.x-dev as 1.0",
