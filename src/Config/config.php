@@ -1,11 +1,11 @@
 <?php
 
-use Klinik\TenantKlinik\{
+use GroupInitialKlinik\TenantKlinik\{
     Contracts, Models, Commands
 };
 
 return [
-    "namespace"     => "Klinik\TenantKlinik",
+    "namespace"     => "GroupInitialKlinik\TenantKlinik",
     "service_name"  => "TenantKlinik",
     "paths"         => [
         "local_path"   => 'app/Tenants',
@@ -59,5 +59,5 @@ return [
     ],
     "encodings" => [
     ],
-    "provider" => "Klinik\TenantKlinik\\Providers\\TenantKlinikServiceProvider"
+    "provider" => "GroupInitialKlinik\TenantKlinik\\Providers\\TenantKlinikServiceProvider"
 ];

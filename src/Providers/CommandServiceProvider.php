@@ -1,9 +1,9 @@
 <?php
 
-namespace Klinik\TenantKlinik\Providers;
+namespace GroupInitialKlinik\TenantKlinik\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Klinik\TenantKlinik\Commands;
+use GroupInitialKlinik\TenantKlinik\Commands;
 
 class CommandServiceProvider extends ServiceProvider
 {

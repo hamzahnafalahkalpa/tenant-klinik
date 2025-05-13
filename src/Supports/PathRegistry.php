@@ -1,6 +1,6 @@
 <?php 
 
-namespace Klinik\TenantKlinik\Supports;
+namespace GroupInitialKlinik\TenantKlinik\Supports;
 
 class PathRegistry
 {

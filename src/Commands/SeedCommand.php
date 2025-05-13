@@ -1,6 +1,6 @@
 <?php
 
-namespace Klinik\TenantKlinik\Commands;
+namespace GroupInitialKlinik\TenantKlinik\Commands;
 
 use Illuminate\Support\Facades\Artisan;
 
@@ -27,7 +27,7 @@ class SeedCommand extends EnvironmentCommand{
     {
         $class = $this->argument('class') ?? "DatabaseSeeder";
         Artisan::call('db:seed',[
-            '--class' => "Klinik\TenantKlinik\\Database\Seeders\\$class"
+            '--class' => "GroupInitialKlinik\TenantKlinik\\Database\Seeders\\$class"
         ]);   
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Klinik\TenantKlinik\Commands;
+namespace GroupInitialKlinik\TenantKlinik\Commands;
 
 use Hanafalah\LaravelSupport\Concerns\ServiceProvider\HasMigrationConfiguration;
 

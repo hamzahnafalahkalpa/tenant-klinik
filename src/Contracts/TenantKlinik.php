@@ -1,6 +1,6 @@
 <?php
 
-namespace Klinik\TenantKlinik\Contracts;
+namespace GroupInitialKlinik\TenantKlinik\Contracts;
 
 use Hanafalah\LaravelSupport\Contracts\Supports\DataManagement;
 

@@ -1,8 +1,8 @@
 {
-    "name": "klinik/tenant-klinik",
+    "name": "group-initial-klinik/tenant-klinik",
     "autoload": {
         "psr-4": {
-            "Klinik\\TenantKlinik\\": "src/"
+            "GroupInitialKlinik\\TenantKlinik\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -17,7 +17,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Klinik\\TenantKlinik\\Providers\\TenantKlinikServiceProvider"
+                "GroupInitialKlinik\\TenantKlinik\\Providers\\TenantKlinikServiceProvider"
             ]
         }
     },
@@ -339,6 +339,13 @@
         "hanafalah/module-pharmacy": {
             "type": "path",
             "url": "../../../repositories/module-pharmacy",
+            "options": {
+                "symlink": true
+            }
+        },
+        "hanafalah/module-tax": {
+            "type": "path",
+            "url": "../../../repositories/module-tax",
             "options": {
                 "symlink": true
             }

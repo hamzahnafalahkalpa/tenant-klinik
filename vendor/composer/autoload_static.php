@@ -46,16 +46,14 @@ class ComposerStaticInit00e0405f1d7076aa9881fbb9d17d90a3
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         '5ced7e4987cc7270725e41f0e24aeba8' => __DIR__ . '/..' . '/hanafalah/laravel-support/src/helpers.php',
         '56cb107a234a8aa4e74e2c8e2c9389fc' => __DIR__ . '/..' . '/hanafalah/laravel-stub/src/helpers.php',
+        '7c68e43b5668812b403505729ea91e93' => __DIR__ . '/..' . '/hanafalah/laravel-package-generator/src/helpers.php',
         '3109cb1a231dcd04bee1f9f620d46975' => __DIR__ . '/..' . '/paragonie/sodium_compat/autoload.php',
         'decc78cc4436b1292c6c0d151b19445c' => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib/bootstrap.php',
         '36c375dc52cef535fa444bc647ee4926' => __DIR__ . '/..' . '/hanafalah/module-workspace/src/helpers.php',
-        'e39a8b23c42d4e1452234d762b03835a' => __DIR__ . '/..' . '/ramsey/uuid/src/functions.php',
-        '7c68e43b5668812b403505729ea91e93' => __DIR__ . '/..' . '/hanafalah/laravel-package-generator/src/helpers.php',
-        'f36d7ea9144e9f8ff76be0eaaff1ee80' => __DIR__ . '/..' . '/stancl/tenancy/src/helpers.php',
-        '5d9d14a5c8b3b0c5f4aa999b73645265' => __DIR__ . '/..' . '/hanafalah/microtenant/src/helpers.php',
         '7dd449b3793e07d67837ff1ed85667a9' => __DIR__ . '/..' . '/projects/klinik/src/helpers.php',
+        '2a9e07cec42974089cfd92c152ee3073' => __DIR__ . '/..' . '/hanafalah/module-tax/src/helpers.php',
         '8b4fe92dc5dae4f20f7bd2fbd64259bd' => __DIR__ . '/..' . '/klinik/group-initial-klinik/src/helpers.php',
-        '0b53885727b0d20f51d4382db53e8098' => __DIR__ . '/../..' . '/src/helpers.php',
+        '39db279a15aa8089c920e663d1d2f123' => __DIR__ . '/../..' . '/src/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -100,7 +98,6 @@ class ComposerStaticInit00e0405f1d7076aa9881fbb9d17d90a3
             'Symfony\\Component\\Clock\\' => 24,
             'Stichoza\\GoogleTranslate\\' => 25,
             'Stancl\\VirtualColumn\\' => 21,
-            'Stancl\\Tenancy\\' => 15,
             'Stancl\\JobPipeline\\' => 19,
             'Spatie\\TemporaryDirectory\\' => 26,
             'Spatie\\StructureDiscoverer\\' => 27,
@@ -113,8 +110,6 @@ class ComposerStaticInit00e0405f1d7076aa9881fbb9d17d90a3
         'R' => 
         array (
             'Revolt\\' => 7,
-            'Ramsey\\Uuid\\' => 12,
-            'Ramsey\\Collection\\' => 18,
         ),
         'P' => 
         array (
@@ -139,7 +134,6 @@ class ComposerStaticInit00e0405f1d7076aa9881fbb9d17d90a3
         ),
         'K' => 
         array (
-            'Klinik\\TenantKlinik\\' => 20,
             'Klinik\\GroupInitialKlinik\\' => 26,
             'Kelunik\\Certificate\\' => 20,
         ),
@@ -163,6 +157,7 @@ class ComposerStaticInit00e0405f1d7076aa9881fbb9d17d90a3
             'Hanafalah\\ModuleUser\\' => 21,
             'Hanafalah\\ModuleTreatment\\' => 26,
             'Hanafalah\\ModuleTransaction\\' => 28,
+            'Hanafalah\\ModuleTax\\' => 20,
             'Hanafalah\\ModuleSummary\\' => 24,
             'Hanafalah\\ModuleService\\' => 24,
             'Hanafalah\\ModuleRegional\\' => 25,
@@ -194,7 +189,6 @@ class ComposerStaticInit00e0405f1d7076aa9881fbb9d17d90a3
             'Hanafalah\\ModuleCardIdentity\\' => 29,
             'Hanafalah\\ModuleAnatomy\\' => 24,
             'Hanafalah\\ModuleAgent\\' => 22,
-            'Hanafalah\\MicroTenant\\' => 22,
             'Hanafalah\\LaravelSupport\\' => 25,
             'Hanafalah\\LaravelStub\\' => 22,
             'Hanafalah\\LaravelPermission\\' => 28,
@@ -208,11 +202,11 @@ class ComposerStaticInit00e0405f1d7076aa9881fbb9d17d90a3
             'GuzzleHttp\\Psr7\\' => 16,
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
+            'GroupInitialKlinik\\TenantKlinik\\' => 32,
         ),
         'F' => 
         array (
             'Firebase\\JWT\\' => 13,
-            'Facade\\IgnitionContracts\\' => 25,
         ),
         'D' => 
         array (
@@ -257,8 +251,8 @@ class ComposerStaticInit00e0405f1d7076aa9881fbb9d17d90a3
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
         ),
         'phpDocumentor\\' => 
         array (
@@ -344,10 +338,6 @@ class ComposerStaticInit00e0405f1d7076aa9881fbb9d17d90a3
         array (
             0 => __DIR__ . '/..' . '/stancl/virtualcolumn/src',
         ),
-        'Stancl\\Tenancy\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/stancl/tenancy/src',
-        ),
         'Stancl\\JobPipeline\\' => 
         array (
             0 => __DIR__ . '/..' . '/stancl/jobpipeline/src',
@@ -384,14 +374,6 @@ class ComposerStaticInit00e0405f1d7076aa9881fbb9d17d90a3
         array (
             0 => __DIR__ . '/..' . '/revolt/event-loop/src',
         ),
-        'Ramsey\\Uuid\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/ramsey/uuid/src',
-        ),
-        'Ramsey\\Collection\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/ramsey/collection/src',
-        ),
         'Psr\\SimpleCache\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/simple-cache/src',
@@ -402,8 +384,8 @@ class ComposerStaticInit00e0405f1d7076aa9881fbb9d17d90a3
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -454,10 +436,6 @@ class ComposerStaticInit00e0405f1d7076aa9881fbb9d17d90a3
         array (
             0 => __DIR__ . '/..' . '/laravel/prompts/src',
         ),
-        'Klinik\\TenantKlinik\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
-        ),
         'Klinik\\GroupInitialKlinik\\' => 
         array (
             0 => __DIR__ . '/..' . '/klinik/group-initial-klinik/src',
@@ -472,9 +450,9 @@ class ComposerStaticInit00e0405f1d7076aa9881fbb9d17d90a3
         ),
         'Illuminate\\Support\\' => 
         array (
-            0 => __DIR__ . '/..' . '/illuminate/macroable',
+            0 => __DIR__ . '/..' . '/illuminate/collections',
             1 => __DIR__ . '/..' . '/illuminate/conditionable',
-            2 => __DIR__ . '/..' . '/illuminate/collections',
+            2 => __DIR__ . '/..' . '/illuminate/macroable',
             3 => __DIR__ . '/..' . '/illuminate/support',
         ),
         'Illuminate\\Pipeline\\' => 
@@ -528,6 +506,10 @@ class ComposerStaticInit00e0405f1d7076aa9881fbb9d17d90a3
         'Hanafalah\\ModuleTransaction\\' => 
         array (
             0 => __DIR__ . '/..' . '/hanafalah/module-transaction/src',
+        ),
+        'Hanafalah\\ModuleTax\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hanafalah/module-tax/src',
         ),
         'Hanafalah\\ModuleSummary\\' => 
         array (
@@ -653,10 +635,6 @@ class ComposerStaticInit00e0405f1d7076aa9881fbb9d17d90a3
         array (
             0 => __DIR__ . '/..' . '/hanafalah/module-agent/src',
         ),
-        'Hanafalah\\MicroTenant\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/hanafalah/microtenant/src',
-        ),
         'Hanafalah\\LaravelSupport\\' => 
         array (
             0 => __DIR__ . '/..' . '/hanafalah/laravel-support/src',
@@ -697,13 +675,13 @@ class ComposerStaticInit00e0405f1d7076aa9881fbb9d17d90a3
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
+        'GroupInitialKlinik\\TenantKlinik\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
         'Firebase\\JWT\\' => 
         array (
             0 => __DIR__ . '/..' . '/firebase/php-jwt/src',
-        ),
-        'Facade\\IgnitionContracts\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/facade/ignition-contracts/src',
         ),
         'Doctrine\\Inflector\\' => 
         array (

@@ -1,6 +1,6 @@
 <?php
 
-namespace Klinik\TenantKlinik\Commands;
+namespace GroupInitialKlinik\TenantKlinik\Commands;
 
 class InstallMakeCommand extends EnvironmentCommand
 {
@@ -24,7 +24,7 @@ class InstallMakeCommand extends EnvironmentCommand
      */
     public function handle()
     {
-        $provider = 'Klinik\TenantKlinik\TenantKlinikServiceProvider';
+        $provider = 'GroupInitialKlinik\TenantKlinik\TenantKlinikServiceProvider';
 
         $this->comment('Installing Module...');
         $this->callSilent('vendor:publish', [

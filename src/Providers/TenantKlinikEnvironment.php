@@ -1,6 +1,6 @@
 <?php
 
-namespace Klinik\TenantKlinik\Providers;
+namespace GroupInitialKlinik\TenantKlinik\Providers;
 
 use Illuminate\Contracts\Container\Container;
 use Hanafalah\LaravelSupport\Providers\BaseServiceProvider;

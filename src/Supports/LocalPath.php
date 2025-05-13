@@ -1,6 +1,6 @@
 <?php 
 
-namespace Klinik\TenantKlinik\Supports;
+namespace GroupInitialKlinik\TenantKlinik\Supports;
 
 use Hanafalah\LaravelSupport\Concerns\Support\HasCall;
 use Illuminate\Support\Str;

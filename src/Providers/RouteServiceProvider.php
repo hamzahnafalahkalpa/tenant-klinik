@@ -1,10 +1,10 @@
 <?php
 
-namespace Klinik\TenantKlinik\Providers;
+namespace GroupInitialKlinik\TenantKlinik\Providers;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
-use Klinik\TenantKlinik\TenantKlinik;
+use GroupInitialKlinik\TenantKlinik\TenantKlinik;
 
 class RouteServiceProvider extends ServiceProvider
 {

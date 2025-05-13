@@ -1,6 +1,6 @@
 <?php
 
-namespace Klinik\TenantKlinik;
+namespace GroupInitialKlinik\TenantKlinik;
 
 use Illuminate\Database\Eloquent\Model;
 use Hanafalah\LaravelSupport\{
@@ -8,7 +8,7 @@ use Hanafalah\LaravelSupport\{
     Supports\PackageManagement,
     Events as SupportEvents
 };
-use Klinik\TenantKlinik\Contracts\TenantKlinik as ContractsTenantKlinik;
+use GroupInitialKlinik\TenantKlinik\Contracts\TenantKlinik as ContractsTenantKlinik;
 
 class TenantKlinik extends PackageManagement implements ContractsTenantKlinik{
     use Supports\LocalPath,HasRepository;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Klinik\TenantKlinik\Facades;
+namespace GroupInitialKlinik\TenantKlinik\Facades;
 
 class TenantKlinik extends \Illuminate\Support\Facades\Facade
 {
@@ -11,6 +11,6 @@ class TenantKlinik extends \Illuminate\Support\Facades\Facade
    */
   protected static function getFacadeAccessor()
   {
-    return \Klinik\TenantKlinik\Contracts\TenantKlinik::class;
+    return \GroupInitialKlinik\TenantKlinik\Contracts\TenantKlinik::class;
   }
 }
