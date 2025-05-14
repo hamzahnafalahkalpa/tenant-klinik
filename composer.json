@@ -182,6 +182,13 @@
                 "symlink": true
             }
         },
+        "hanafalah/module-payment": {
+            "type": "path",
+            "url": "../../../repositories/module-payment",
+            "options": {
+                "symlink": true
+            }
+        },
         "hanafalah/module-payer": {
             "type": "path",
             "url": "../../../repositories/module-payer",
@@ -241,6 +248,13 @@
         "hanafalah/module-class-room": {
             "type": "path",
             "url": "../../../repositories/module-class-room",
+            "options": {
+                "symlink": true
+            }
+        },
+        "hanafalah/module-card-identity": {
+            "type": "path",
+            "url": "../../../repositories/module-card-identity",
             "options": {
                 "symlink": true
             }
@@ -374,6 +388,13 @@
         "hanafalah/module-handwriting": {
             "type": "path",
             "url": "../../../repositories/module-handwriting",
+            "options": {
+                "symlink": true
+            }
+        },
+        "hanafalah/module-support": {
+            "type": "path",
+            "url": "../../../repositories/module-support",
             "options": {
                 "symlink": true
             }
