@@ -398,6 +398,13 @@
             "options": {
                 "symlink": true
             }
+        },
+        "hanafalah/puskesmas-asset": {
+            "type": "path",
+            "url": "../../../repositories/puskesmas-asset",
+            "options": {
+                "symlink": true
+            }
         }
     }
 }
