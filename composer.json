@@ -5,7 +5,7 @@
             "GroupInitialKlinik\\TenantKlinik\\": "src/"
         },
         "files": [
-            "src/helpers.php"
+            "src/helper.php"
         ]
     },
     "authors": [
