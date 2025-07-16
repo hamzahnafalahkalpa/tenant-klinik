@@ -24,8 +24,8 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "hanafalah/laravel-support": "dev-main",
-        "klinik/group-initial-klinik": "dev-main"
+        "hanafalah/laravel-support": "1.x-dev as 1.0",
+        "klinik/group-initial-klinik": "1.x-dev as 1.0"
     },
     "repositories": {
         "projects/klinik": {
