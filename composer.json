@@ -56,6 +56,13 @@
                 "symlink": true
             }
         },
+        "hanafalah/module-monitoring": {
+            "type": "path",
+            "url": "../../../repositories/module-monitoring",
+            "options": {
+                "symlink": true
+            }
+        },
         "hanafalah/laravel-has-props": {
             "type": "path",
             "url": "../../../repositories/laravel-has-props",
