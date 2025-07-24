@@ -412,13 +412,6 @@
             "options": {
                 "symlink": true
             }
-        },
-        "hanafalah/module-monitoring": {
-            "type": "path",
-            "url": "../../../repositories/module-monitoring",
-            "options": {
-                "symlink": true
-            }
         }
     }
 }
