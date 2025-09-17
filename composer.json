@@ -371,13 +371,6 @@
                 "symlink": true
             }
         },
-        "hanafalah/module-rencana-anggaran": {
-            "type": "path",
-            "url": "../../repositories/module-rencana-anggaran",
-            "options": {
-                "symlink": true
-            }
-        },
         "hanafalah/module-event": {
             "type": "path",
             "url": "../../repositories/module-event",
